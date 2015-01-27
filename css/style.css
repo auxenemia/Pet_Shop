@@ -1,0 +1,26 @@
+@import url('bootstrap.min.css');
+
+html, body {margin:0; padding:0; background-color:#f9f9f9;}
+a, a:hover, a:focus, a:active {text-decoration:none; outline:none;}
+.header {background-color:#eeeee0; position:absolute; top:0; width:100%; height:0; text-align:center; display:none;}
+.content {position:absolute; top:10px; bottom:0; width:100%;}
+.footer {position:fixed; bottom:0; width:100%; height:auto; padding:5px; text-align:center; color:#888a85; font-size:smaller;}
+.center {position:fixed; top:50%; right:50%; transform:translate(50%, -50%);}
+.menua {position:relative; right:0;}
+.menub {position:relative: left:0;}
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn.active.focus {outline:none;}
+.btn-circle {padding:90px; border-radius:50%; font-size:1.5em;}
+.form-signin {width:330px; padding:15px; margin: 0 auto;}
+.form-signin .form-control {position:relative; height: auto; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 10px; font-size: 16px;}
+.form-signin .form-control:focus {z-index: 2;}
+.form-signin input[type="text"] {margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;}
+.form-signin input[type="password"] {margin-bottom: 10px; border-top-left-radius: 0; border-top-right-radius: 0;}
+.form-signin .error {color:#ef2929; margin-bottom:5px;}
+.transaksi .input-group {margin-bottom:5px;}
+.transaksi h2 {margin-top:0px; text-align:right;}
+.transaksi .total {position:fixed; bottom:5px; left:10px;}
+.none {display:none;}
+.no-padding {padding:0;}
+.no-margin {margin:0;}
+.add {position: fixed; top: 40%; right: -1px;}
+select {-webkit-appearance: none; -moz-appearance: none; appearance: none; padding: 2px 30px 2px 2px; border: none;}
